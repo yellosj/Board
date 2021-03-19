@@ -8,9 +8,10 @@ from pip._vendor.requests import Response
 from django.core.exceptions import ObjectDoesNotExist
 
 #여기서 게시물 list 가져오는 부분 빼고 class로 묶고, 저번에 아려준 apiview로 post, get, put, del 메소드 받아서 어떤 작업 수행할껀지 구별하고
-#함수로 뿌려주는 형식..?
+#함수로 뿌려주는 형식..?ㅇㅇㅇㅇㅇ
 #수정하게 되면 사실상 다 수정해야해서 거의 다른작업하는 느낌날텐데......................................................
-#경험으로는 무조건 좋은 경험이긴한데..
+#경험으로는 무조건 좋은 경험이긴한데..ㄹㄴㄹㄴㅇㄹㄴㄹ
+
 # Create your views here.
 def index(request):
     boards = {'boards': Board.objects.all()}
@@ -43,10 +44,7 @@ def edit(request, id):
 
     return render(request, "edit.html", {'board': board})
 
-#살려주세요...
-#토나와요....
-#ㅠㅠㅠㅠㅠ
-#자고싶어요.....
+
 
 @csrf_exempt
 def update(request, id):
