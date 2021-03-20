@@ -80,5 +80,6 @@ def delete(request, id):
 
     return redirect('index')
 # 죽석추가입니다.
+# remote
 
 
