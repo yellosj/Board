@@ -79,5 +79,6 @@ def delete(request, id):
     board_delete.delete()
 
     return redirect('index')
+# 죽석추가입니다.
 
 
